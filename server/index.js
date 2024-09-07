@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your frontend's origin
+    origin: 'https://tender-rrhw.vercel.app/', // Replace with your frontend's origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
